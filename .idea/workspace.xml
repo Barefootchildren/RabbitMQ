@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f940da84-537e-4048-a119-04cb53da9b5e" name="更改" comment="" />
+    <list default="true" id="f940da84-537e-4048-a119-04cb53da9b5e" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/Fanout/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dead_letter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +23,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="33FJ22kRrJXNBwSOYMDDVYQNqZI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="compactDirectories" value="true" />
@@ -33,8 +45,11 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Java/RabbitMQDemo",
+    "last_opened_file_path": "C:/Java/RabbitMQDemo/dead_letter/src/main/java/com/code/consumer/reject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,31 +61,62 @@
     "settings.editor.selected.configurable": "Errors",
     "vue.rearranger.settings.migration": "true",
     "应用程序.Consumer.executor": "Run",
+    "应用程序.ConsumerOne (1).executor": "Run",
+    "应用程序.ConsumerOne (2).executor": "Run",
+    "应用程序.ConsumerOne.executor": "Run",
+    "应用程序.ConsumerTwo (1).executor": "Run",
+    "应用程序.ConsumerTwo.executor": "Run",
+    "应用程序.Produce (1).executor": "Run",
     "应用程序.Produce.executor": "Run",
     "应用程序.ProduceOne (1).executor": "Run",
     "应用程序.ProduceOne.executor": "Run",
     "应用程序.ProduceTwo (1).executor": "Run",
     "应用程序.ProduceTwo.executor": "Run",
     "应用程序.code.consumer.Consumer (1).executor": "Run",
-    "应用程序.code.consumer.Consumer.executor": "Run"
+    "应用程序.code.consumer.Consumer.executor": "Run",
+    "应用程序.com.code.consumer.TTL.ConsumerOne.executor": "Run",
+    "应用程序.com.code.consumer.TTL.ConsumerTwo.executor": "Run",
+    "应用程序.com.code.consumer.reject.ConsumerOne.executor": "Run",
+    "应用程序.com.code.consumer.reject.ConsumerTwo.executor": "Run",
+    "应用程序.com.code.produce.Produce.executor": "Run",
+    "应用程序.com.code.produce.TTL.Produce.executor": "Run",
+    "应用程序.com.code.produce.reject.Produce.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Java\RabbitMQDemo\dead_letter\src\main\java\com\code\consumer\reject" />
+      <recent name="C:\Java\RabbitMQDemo\dead_letter\src\main\java\com\code\consumer\Max" />
+      <recent name="C:\Java\RabbitMQDemo\dead_letter\src\main\java" />
       <recent name="C:\Java\RabbitMQDemo" />
-      <recent name="C:\Java\RabbitMQDemo\work_queue\src\main\java" />
+      <recent name="C:\Java\RabbitMQDemo\Fanout\src\main\java\com" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.code.produce.reject" />
+      <recent name="com.code.produce.Max" />
       <recent name="code.produce" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.Produce">
-    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code.consumer.Consumer" />
-      <module name="work_queue_nonautoack" />
+  <component name="RunManager" selected="应用程序.com.code.produce.reject.Produce">
+    <configuration name="ConsumerOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.code.consumer.Max.ConsumerOne" />
+      <module name="dead_letter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code.consumer.*" />
+          <option name="PATTERN" value="com.code.consumer.Max.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerTwo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.code.consumer.ConsumerTwo" />
+      <module name="Direct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.code.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,37 +125,11 @@
       </method>
     </configuration>
     <configuration name="Produce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code.produce.Produce" />
-      <module name="RabbitMQconfirm" />
+      <option name="MAIN_CLASS_NAME" value="com.code.produce.Max.Produce" />
+      <module name="dead_letter" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="code.produce.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProduceOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code.produce.ProduceOne" />
-      <module name="work_queue_nonautoack" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProduceTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="code.produce.ProduceTwo" />
-      <module name="work_queue" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code.consumer.*" />
+          <option name="PATTERN" value="com.code.produce.Max.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,6 +143,45 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="code.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.code.consumer.reject.ConsumerOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.code.consumer.reject.ConsumerOne" />
+      <module name="dead_letter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.code.consumer.reject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.code.consumer.reject.ConsumerTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.code.consumer.reject.ConsumerTwo" />
+      <module name="dead_letter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.code.consumer.reject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.code.produce.reject.Produce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.code.produce.reject.Produce" />
+      <module name="dead_letter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.code.produce.reject.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.com.code.produce.reject.Produce" />
+        <item itemvalue="应用程序.com.code.consumer.reject.ConsumerTwo" />
+        <item itemvalue="应用程序.com.code.consumer.reject.ConsumerOne" />
+        <item itemvalue="应用程序.ConsumerOne" />
         <item itemvalue="应用程序.Produce" />
-        <item itemvalue="应用程序.ProduceTwo (1)" />
-        <item itemvalue="应用程序.code.consumer.Consumer (1)" />
-        <item itemvalue="应用程序.ProduceOne (1)" />
-        <item itemvalue="应用程序.ProduceTwo" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +215,8 @@
       <option name="presentableId" value="Default" />
       <updated>1758906679497</updated>
       <workItem from="1758906680789" duration="78000" />
-      <workItem from="1758906776329" duration="12110000" />
+      <workItem from="1758906776329" duration="12675000" />
+      <workItem from="1758982957168" duration="9991000" />
     </task>
     <servers />
   </component>

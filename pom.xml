@@ -13,6 +13,10 @@
         <module>work_queue</module>
         <module>work_queue_nonautoack</module>
         <module>RabbitMQconfirm</module>
+        <module>Fanout</module>
+        <module>Direct</module>
+        <module>Topic</module>
+        <module>dead_letter</module>
     </modules>
 
     <!--指定 jdk 编译版本-->
