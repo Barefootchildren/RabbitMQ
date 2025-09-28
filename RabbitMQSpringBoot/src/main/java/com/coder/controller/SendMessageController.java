@@ -1,8 +1,10 @@
 package com.coder.controller;
 
+import com.coder.config.ConfirmQueueConstant;
 import com.coder.config.DelayQueueOneConstant;
 import lombok.extern.slf4j.Slf4j;
 import org.omg.CORBA.PUBLIC_MEMBER;
+import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -55,5 +57,14 @@ public class SendMessageController {
                 });
         log.info("当前时间：{},发送一条延迟{}毫秒的信息给队列 :{}",
                 LocalTime.now(), delayTime, message);
+    }
+    @GetMapping("/confirm/{message}")
+    public void sendConfirmMsg(@PathVariable String message){
+        rabbitTemplate.convertAndSend(ConfirmQueueConstant.CONFIRM_EXCHANGE,
+                ConfirmQueueConstant.CONFIRM_ROUTING_KEY+1,
+                message,
+                new CorrelationData("1"));
+        log.info("当前时间：{},发送一条信息给队列 :{}",
+                LocalTime.now(), message);
     }
 }

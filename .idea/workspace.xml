@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f940da84-537e-4048-a119-04cb53da9b5e" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQSpringBoot/src/main/java/com/coder/controller/SendMessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQSpringBoot/src/main/java/com/coder/controller/SendMessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RabbitMQSpringBoot/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/RabbitMQSpringBoot/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +22,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/RabbitMQSpringBoot" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -43,9 +42,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.RabbitMqSpringBootApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Java/RabbitMQDemo/dead_letter/src/main/java/com/code/consumer/reject",
@@ -96,7 +100,7 @@
       <recent name="code.produce" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.com.code.produce.reject.Produce">
+  <component name="RunManager" selected="Spring Boot.RabbitMqSpringBootApplication">
     <configuration name="ConsumerOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.code.consumer.Max.ConsumerOne" />
       <module name="dead_letter" />
@@ -224,6 +228,12 @@
       <workItem from="1758906776329" duration="12675000" />
       <workItem from="1758982957168" duration="10140000" />
       <workItem from="1759027029091" duration="251000" />
+      <workItem from="1759027306212" duration="410000" />
+      <workItem from="1759027762192" duration="94000" />
+      <workItem from="1759088656921" duration="572000" />
+      <workItem from="1759089239307" duration="79000" />
+      <workItem from="1759089336005" duration="35000" />
+      <workItem from="1759089383297" duration="4742000" />
     </task>
     <servers />
   </component>
